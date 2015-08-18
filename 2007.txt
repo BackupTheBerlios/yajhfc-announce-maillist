@@ -1,0 +1,259 @@
+From jonas.wolz at freenet.de  Fri Feb 16 10:23:48 2007
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Fri, 16 Feb 2007 10:23:48 +0100
+Subject: [Yajhfc-announce] YajHFC 0.3.1 released
+Message-ID: <200702161023.49101.jonas.wolz@freenet.de>
+
+I am glad to announce that version 0.3.1 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_1.jar
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_1-src.zip
+
+New features:
+- Changeable Look&Feel
+- Option to show new faxes in a viewer automatically
+- UI option to change polling intervals of the HylaFAX server added
+- A simple search dialog for the phone book has been added
+- YajHFC should now also run with the "stock" version of the gnu.hylafax 
+library (not very well tested!)
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+
+
+From jonas.wolz at freenet.de  Sun Mar 18 19:11:00 2007
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sun, 18 Mar 2007 19:11:00 +0100
+Subject: [Yajhfc-announce] YajHFC 0.3.2 released
+Message-ID: <200703181911.01496.jonas.wolz@freenet.de>
+
+I am glad to announce that version 0.3.2 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_2.jar
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_2-src.zip
+
+New features/changes:
+- Bugfix for sporadical errors while sending faxes
+- Support for launching a new instance in the background (useful for 
+  "fax printers")
+- Some additional new commandline parameters
+- Refresh button
+- ant build file included in the source distribution
+- documentation updates
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+
+
+From jonas.wolz at freenet.de  Fri Mar 30 12:26:12 2007
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Fri, 30 Mar 2007 12:26:12 +0200
+Subject: [Yajhfc-announce] Experimental Windows setup.exe
+Message-ID: <200703301226.12702.jonas.wolz@freenet.de>
+
+In the last days I created an "experimental" Windows setup.exe for YajHFC 
+(using InnoSetup).
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_2-setup.exe
+
+The probably most useful feature of it is the ability to install a fax printer 
+automatically (of course it also installs nice start menu icons ;-) ).
+The automatic fax printer installation needs some testing, however (especially 
+if it works in Windows Vista).
+
+Currently it has been tested only on test installations of Windows XP and 
+2000. Thus, I would be glad to hear some user feedback especially if you have 
+any problems with it or (successfully) used it in Windows Vista.
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+
+
+From jonas.wolz at freenet.de  Thu Apr 12 21:39:41 2007
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Thu, 12 Apr 2007 21:39:41 +0200
+Subject: [Yajhfc-announce] YajHFC 0.3.3 released
+Message-ID: <200704122139.41522.jonas.wolz@freenet.de>
+
+I am pleased to announce that version 0.3.3 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_3.jar
+
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_3-src.zip
+
+Windows setup.exe:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_3-setup.exe
+
+New features/changes:
+- Support for resending faxes
+- Printing the tables with received/sent faxes supported
+- Colored background for failed fax jobs
+- Read only LDAP phone book support added
+- Support for multiple open phone books
+- Windows setup program with automatic "fax printer" installation
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+
+
+From jonas.wolz at freenet.de  Fri Jul 20 14:44:09 2007
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Fri, 20 Jul 2007 14:44:09 +0200
+Subject: [Yajhfc-announce] YajHFC 0.3.4 released
+Message-ID: <200707201444.10032.jonas.wolz@freenet.de>
+
+I am pleased to announce that version 0.3.4 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_4.jar
+
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_4-src.zip
+
+Windows setup.exe:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_4-setup.exe
+
+New features/changes:
+- Support to specify recipients on the command line
+- Suspend/Resume for fax jobs
+- French translation added
+- Initially displayed tab can be set by a command line argument
+- The "stock" gnu.hylafax library is now used by default (which fixes some 
+bugs)
+
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+
+
+From jonas.wolz at freenet.de  Sat Aug 25 18:19:37 2007
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sat, 25 Aug 2007 18:19:37 +0200
+Subject: [Yajhfc-announce] Bugfix release YajHFC 0.3.4a
+Message-ID: <200708251819.37803.jonas.wolz@freenet.de>
+
+Version 0.3.4a of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_4a.jar
+
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_4a-src.zip
+
+Windows setup.exe:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_4a-setup.exe
+
+This version fixes a bug that caused an extra character to be appended to a 
+document when it was submitted by standard input to an already running YajHFC 
+instance.
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+
+
+From jonas.wolz at freenet.de  Tue Sep 18 15:34:16 2007
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Tue, 18 Sep 2007 15:34:16 +0200
+Subject: [Yajhfc-announce] YajHFC 0.3.5 released
+Message-ID: <200709181534.17195.jonas.wolz@freenet.de>
+
+I am pleased to announce that version 0.3.5 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_5.jar
+
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_5-src.zip
+
+Windows setup.exe:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_5-setup.exe
+
+New features/changes:
+- Some UI improvements/"polishing" (e.g. progress bar for the fax list and 
+more icons)
+- Removed some restrictions on visible columns 
+  (e.g.: the job ID does no longer have to be visible)
+- New fax actions now are executed only *after* the faxes are no longer "in 
+progress"
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+
+
+From jonas.wolz at freenet.de  Wed Oct 10 21:01:09 2007
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Wed, 10 Oct 2007 21:01:09 +0200
+Subject: [Yajhfc-announce] OpenOffice plugin for YajHFC
+Message-ID: <200710102101.09724.jonas.wolz@freenet.de>
+
+I created a small OpenOffice plugin that adds a toolbar button to send the 
+current document as a fax with YajHFC.
+
+You can download it at:
+ftp://ftp.berlios.de/pub/yajhfc/download/yajhfc-OO-plugin.zip
+
+Currently it only has been tested with OpenOffice 2.3 in Linux, but it should 
+work with other versions/operating systems, too.
+
+If it does not work for you or if you have any feedback about it, please let 
+me know.
+
+Have fun,
+Jonas
+
+
+
+From jonas.wolz at freenet.de  Thu Nov 15 12:27:21 2007
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Thu, 15 Nov 2007 12:27:21 +0100
+Subject: [Yajhfc-announce] Vista compatible setup.exe
+Message-ID: <200711151227.21981.jonas.wolz@freenet.de>
+
+The YajHFC Windows setup program has been updated to fully support Windows 
+Vista now.
+
+You can download the new version at:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_5a-setup.exe
+
+If you find any (new) incompatibilities to Vista or any other Windows version, 
+please let me know.
+
+Have fun,
+Jonas
+
+
+

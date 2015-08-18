@@ -1,0 +1,389 @@
+From jonas.wolz at freenet.de  Sun Jan  3 11:52:49 2010
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sun, 3 Jan 2010 11:52:49 +0100
+Subject: [Yajhfc-announce] Experimental Debian and Ubuntu packages for YajHFC
+Message-ID: <201001031152.49625.jonas.wolz@freenet.de>
+
+In the last few days, new .deb packages for YajHFC have been created. 
+They have been tested with Debian 5.0 ("Lenny") and Ubuntu 9.1 and probably 
+should work with other versions of Debian or Ubuntu, too.
+
+These packages support an easy installation of YajHFC and an automatic 
+installation of a "fax printer" in CUPS (just like the Windows setup does for 
+Windows).
+
+The packages include a beta version of YajHFC 0.4.3 (and not 0.4.2a), because 
+I had to make some extensions to YajHFC in order to support a reliable, 
+automatic fax printer creation with CUPS.
+
+While working on the fax printer package, I created a short guide how to 
+manually install a fax printer in YajHFC (e.g. if you use a rpm based 
+distribution or the packages do not work for you for some other reason).
+
+You can access this guide at:
+http://yajhfc.berlios.de/doc/cupsfaxprinter.shtml
+
+A JAR file of the YajHFC 0.4.3beta can be downloaded here:
+ftp://ftp.berlios.de/pub/yajhfc/temp/yajhfc-0_4_3beta1.jar
+
+
+If you use Debian or Ubuntu and want to try out the packages, the recommended 
+way is to add the YajHFC apt repository to your /etc/apt/sources.list. To do 
+so, please add the following line to that file (or use some graphical utility 
+to edit your package sources...) and do an "apt-get update".
+
+deb ftp://ftp.berlios.de/pub/yajhfc/repository/apt stable/
+
+The packages found there should work for both Debian and Ubuntu, so you can 
+use the same apt line for both distributuions.
+
+Usually you will receive a warning that my packages are not authenticated 
+(since I am not a Debian or Ubuntu maintainer). 
+You can either ignore this warning or import my public key and do another 
+apt-get update, so that apt knows that I am "trustworthy".
+To import the public key, execute the following command in a terminal:
+
+wget -q http://yajhfc.berlios.de/JonasWolz.pub -O - | sudo apt-key add -
+
+After successfully adding the repository, you will have two additional 
+packages available:
+yajhfc            -- Installs the jar file, a launcher and adds a menu
+                     shortcut
+yajhfc-faxprinter -- Installs a fax printer in CUPS
+
+You can now install the packages just like any other package for your 
+distribution (e.g. by issuing "apt-get install yajhfc-faxprinter").
+
+
+If you do not want to add my apt repository, you can also manually download 
+and install the debs from here:
+ftp://ftp.berlios.de/pub/yajhfc/repository/apt/stable/yajhfc_0.4.3~beta1-1_all.deb
+ftp://ftp.berlios.de/pub/yajhfc/repository/apt/stable/yajhfc-faxprinter_0.4.3~beta1-1_all.deb
+
+
+I hope that the packages will work for you (since this is the first time I 
+created and published Debian packages...).
+If you have any problems or feedback, please write me a mail or to the 
+yajhfc-user mailing list.
+
+
+Have fun and a Happy New Year,
+Jonas Wolz
+
+
+From jonas.wolz at freenet.de  Tue Jan  5 15:02:11 2010
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Tue, 5 Jan 2010 15:02:11 +0100
+Subject: [Yajhfc-announce] Experimental RPMs for YajHFC available
+Message-ID: <201001051502.11501.jonas.wolz@freenet.de>
+
+In addition to the Debian/Ubuntu packages, now there are also some RPM 
+packages available.
+The RPMs were created and tested on openSUSE 11.2.
+They probably will also work with older SUSE versions and other RPM based 
+distributions, but as I have not tested this, I cannot promise anything (so 
+use them at your own risk... ;-) ).
+
+You can download the two packages from:
+
+ftp://ftp.berlios.de/pub/yajhfc/temp/yajhfc-0.4.2.99beta1-1.noarch.rpm
+and
+ftp://ftp.berlios.de/pub/yajhfc/temp/yajhfc-faxprinter-0.4.2.99beta1-1.noarch.rpm
+
+If you have any problems and/or feedback, please write me a mail or to the 
+yajhfc-user mailing list.
+
+
+Have fun,
+Jonas Wolz
+
+
+From jonas.wolz at freenet.de  Sat Jan 30 10:34:11 2010
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sat, 30 Jan 2010 10:34:11 +0100
+Subject: [Yajhfc-announce] Sources of YajHFC linux packages available
+Message-ID: <201001301034.12096.jonas.wolz@freenet.de>
+
+Because of some user requests, I made the source packages for the YajHFC linux 
+packages available.
+
+Deb packages
+=============
+
+For the deb packages you can get them by adding the following apt line:
+deb-src ftp://ftp.berlios.de/pub/yajhfc/repository/apt stable/
+
+Or by directly downloading the following files:
+ftp://ftp.berlios.de/pub/yajhfc/repository/apt/stable/sources/yajhfc_0.4.3~beta1-2.dsc
+ftp://ftp.berlios.de/pub/yajhfc/repository/apt/stable/sources/yajhfc_0.4.3~beta1-2.tar.gz
+
+
+Rpm packages
+=============
+
+You can download the source rpms from:
+ftp://ftp.berlios.de/pub/yajhfc/temp/yajhfc-0.4.2.99beta1-1.src.rpm
+ftp://ftp.berlios.de/pub/yajhfc/temp/yajhfc-faxprinter-0.4.2.99beta1-1.src.rpm
+
+
+If you have any problems and/or feedback, please write me a mail or to the 
+yajhfc-user mailing list.
+
+Have fun
+Jonas Wolz
+
+
+From Stephen.Kerr at GBR.dupont.com  Mon Apr 12 14:01:53 2010
+From: Stephen.Kerr at GBR.dupont.com (Stephen Kerr)
+Date: Mon, 12 Apr 2010 13:01:53 +0100
+Subject: [Yajhfc-announce] yajhfc and Excel Integration
+Message-ID: <OFF6905098.8A048BAC-ON80257703.0041E022-80257703.00421799@CDCLN05.LVS.DUPONT.COM>
+
+Is it possible for MS Excel to automatically send parameters to the Yajhfc 
+client i.e. Fax Number?
+
+I have Excel templates that have different fax numbers, and it would 
+enable me to fax them without having to input the fax number each time.
+
+thanks,
+Stephen
+
+This communication is for use by the intended recipient and contains
+information that may be Privileged, confidential or copyrighted under
+applicable law. If you are not the intended recipient, you are hereby
+formally notified that any use, copying or distribution of this e-mail,
+in whole or in part, is strictly prohibited. Please notify the sender by
+return e-mail and delete this e-mail from your system. Unless explicitly
+and conspicuously designated as "E-Contract Intended", this e-mail does
+not constitute a contract offer, a contract amendment, or an acceptance
+of a contract offer. This e-mail does not constitute a consent to the
+use of sender's contact information for direct marketing purposes or for
+transfers of data to third parties.
+
+Francais Deutsch Italiano  Espanol  Portugues  Japanese  Chinese  Korean
+
+           http://www.DuPont.com/corp/email_disclaimer.html
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/yajhfc-announce/attachments/20100412/5181dcd6/attachment.html>
+
+From jonas.wolz at freenet.de  Sat Apr 17 16:48:52 2010
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sat, 17 Apr 2010 16:48:52 +0200
+Subject: [Yajhfc-announce] YajHFC 0.4.3 released
+Message-ID: <201004171648.53802.jonas.wolz@freenet.de>
+
+I am pleased to announce that version 0.4.3 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_4_3.jar
+
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_4_3-src.zip
+
+Windows setup.exe:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_4_3-setup.exe
+
+RPM packages:
+http://prdownload.berlios.de/yajhfc/yajhfc-0.4.3-1.noarch.rpm
+http://prdownload.berlios.de/yajhfc/yajhfc-faxprinter-0.4.3-1.noarch.rpm
+
+APT line to add to /etc/apt/sources.list for Debian/Ubuntu packages:
+deb ftp://ftp.berlios.de/pub/yajhfc/repository/apt stable/
+
+More information about the .deb packages:
+http://prdownload.berlios.de/yajhfc/deb-packages-info-0.4.3.txt
+
+
+New features/changes:
+- Chinese translation added
+- "View log" feature for sent faxes
+- Tray notification message can be turned off
+- Filters for Phone book items
+- "Extended resolution" support (i.e. USEXVRES=yes)
+- New command line parameter: --modem
+- Support for TCP/IP and named pipe virtual printer port
+- Support for default/override configuration in /etc/yajhfc
+- Several bug fixes
+- RPM and DEB packages for YajHFC are available now
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have Fun,
+Jonas
+
+
+From jonas.wolz at freenet.de  Sun Jul 25 13:26:04 2010
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sun, 25 Jul 2010 13:26:04 +0200
+Subject: [Yajhfc-announce] YajHFC 0.4.4 release candiate
+Message-ID: <201007251326.04459.jonas.wolz@freenet.de>
+
+In the coming weeks YajHFC 0.4.4 will be released.
+
+Because this release contains several changes (especially regarding the 
+printing of the fax tables and phone books), a release candidate/beta version 
+has been published to get some feedback/testing before the actual release.
+
+You can download the jar file / Windows setup / Linux packages / MAC app 
+(new!) from
+
+ftp://ftp.berlios.de/pub/yajhfc/temp/0.4.4rc
+
+You are encouraged to test this version and give feedback if you find any 
+problems with it.
+
+The translations (except German) are still incomplete, but they will be 
+updated as soon as they are ready.
+
+Changes in YajHFC 0.4.4:
+- Improved MAC OS support (mostly cosmetic changes)
+- Support to enter custom file converters
+- Access to advanced settings over UI
+- Support to print phone books
+- Improved printing of faxes
+- Support for @@CCNameAndFax@@ Tag in HTML cover pages
+- Resend fax for multiple recipients
+- Log console to view the log live
+- Separation of view and send format for faxes
+- User-editable list of modems
+- new "override-setting" command line parameter
+- Several bug fixes
+
+
+Have fun and thanks in advance for your feedback!
+
+Jonas Wolz.
+
+
+From jonas.wolz at freenet.de  Sat Jul 31 20:14:16 2010
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sat, 31 Jul 2010 20:14:16 +0200
+Subject: [Yajhfc-announce] [Yajhfc-user] YajHFC 0.4.4 release candiate
+In-Reply-To: <201007251326.04459.jonas.wolz@freenet.de>
+References: <201007251326.04459.jonas.wolz@freenet.de>
+Message-ID: <201007312014.16495.jonas.wolz@freenet.de>
+
+Am Sonntag, 25. Juli 2010 schrieb Jonas Wolz:
+> In the coming weeks YajHFC 0.4.4 will be released.
+>
+> Because this release contains several changes (especially regarding the
+> printing of the fax tables and phone books), a release candidate/beta
+> version has been published to get some feedback/testing before the actual
+> release.
+>
+> You can download the jar file / Windows setup / Linux packages / MAC app
+> (new!) from
+>
+> ftp://ftp.berlios.de/pub/yajhfc/temp/0.4.4rc
+>
+> You are encouraged to test this version and give feedback if you find any
+> problems with it.
+>
+> The translations (except German) are still incomplete, but they will be
+> updated as soon as they are ready.
+
+The builds at the above URL have been updated with the Chinese, Italian, 
+Russian and Spanish translations (thanks to all translators for their fast 
+response!).
+
+
+Jonas.
+
+
+From jonas.wolz at freenet.de  Sun Aug 29 09:31:25 2010
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sun, 29 Aug 2010 09:31:25 +0200
+Subject: [Yajhfc-announce] YajHFC 0.4.4 released
+Message-ID: <201008290931.25387.jonas.wolz@freenet.de>
+
+I am pleased to announce that version 0.4.4 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_4_4.jar
+
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_4_4-src.zip
+
+Windows setup.exe:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_4_4-setup.exe
+
+RPM packages:
+http://prdownload.berlios.de/yajhfc/yajhfc-0.4.4-1.noarch.rpm
+http://prdownload.berlios.de/yajhfc/yajhfc-faxprinter-0.4.4-1.noarch.rpm
+
+APT line to add to /etc/apt/sources.list for Debian/Ubuntu packages:
+deb ftp://ftp.berlios.de/pub/yajhfc/repository/apt stable/
+
+More information about the DEB packages:
+http://prdownload.berlios.de/yajhfc/deb-packages-info-0.4.4.txt
+
+Mac App (NEW):
+http://prdownload.berlios.de/yajhfc/yajhfc-macapp-0.4.4.zip
+
+
+New features/changes:
+- Improved MAC OS support (mostly cosmetic changes)
+- Support to enter custom file converters
+- Access to advanced settings over UI
+- Support to print phone books
+- Improved printing of faxes
+- Support for @@CCNameAndFax@@ Tag in HTML cover pages
+- Resend fax for multiple recipients
+- Log console to view the log live
+- Separation of view and send format for faxes
+- User-editable list of modems
+- new "override-setting" command line parameter
+- Several bug fixes
+
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have Fun,
+Jonas Wolz
+
+
+From jonas.wolz at freenet.de  Fri Dec 31 16:40:23 2010
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Fri, 31 Dec 2010 16:40:23 +0100
+Subject: [Yajhfc-announce] YajHFC 0.5.0beta
+Message-ID: <201012311640.23998.jonas.wolz@freenet.de>
+
+A beta version for YajHFC 0.5.0 has been made available today.
+
+You can find it in the following directory:
+ftp://ftp.berlios.de/pub/yajhfc/temp/beta/
+
+This version incorporates major changes in the architecture the fax lists are 
+loaded, which will offer much more flexibility in the possible sources of the 
+list data and will probably make it easier to offer multiple server support 
+some time in the future (although still much work needs to be done for the 
+latter; this feature won't necessarily come with 0.5.0).
+
+Because of this rather major change, I decided to put out a beta early (it 
+might still take some months before 0.5.0 gets released).
+I will be happy about any positive or negative feedback regarding this change 
+(especially new bugs, performance problems, ...).
+
+User-visible changes are:
+
+- Support for local caching of the fax lists, probably making the start-up of 
+the application feel much quicker
+
+- Experimental support for direct reading to the recvq and doneq directory, 
+bypassing the HylaFAX server (and the HylaFAX user authentication). This 
+might lead to a lower server load with large queues since only modified files 
+are read to refresh the fax lists. This still needs some testing, however... 
+(any feedback on this feature is very welcome!)
+
+- Options dialog should open a bit faster than before
+
+- "Test connection" button in the Options dialog
+
+
+Happy New Year and happy testing!
+Jonas Wolz
+
+

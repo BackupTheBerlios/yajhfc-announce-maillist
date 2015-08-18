@@ -1,0 +1,191 @@
+From jonas.wolz at freenet.de  Wed Mar  5 11:29:55 2008
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Wed, 5 Mar 2008 11:29:55 +0100
+Subject: [Yajhfc-announce] YajHFC 0.3.6 released
+Message-ID: <200803051129.55380.jonas.wolz@freenet.de>
+
+I am pleased to announce that version 0.3.6 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_6.jar
+
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_6-src.zip
+
+Windows setup.exe:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_6-setup.exe
+
+New features/changes:
+- Some bug fixes
+- Support for selection of multiple phone book entries for the send dialog
+- New command line argument ("--logfile") to log to a file in debug mode
+- Support for "disconnected mode" as a possible workaround to some HylaFAX 
+bugs
+- Support to select the modem to use
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+
+
+From jonas.wolz at freenet.de  Mon Aug 18 18:49:00 2008
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Mon, 18 Aug 2008 18:49:00 +0200
+Subject: [Yajhfc-announce] YajHFC 0.3.7 released
+Message-ID: <200808181849.00743.jonas.wolz@freenet.de>
+
+I am pleased to announce that version 0.3.7 of YajHFC has been released today.
+
+Download: 
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_7.jar
+Source code: 
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_7-src.zip
+Windows setup.exe: 
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_7-setup.exe
+
+New features/changes:
+- New simplified send dialog
+- Support for cover pages in HTML format
+- Support for cover pages in XSL:FO and ODT format using a plugin
+- Better plugin support
+- Logging changed to use the Java logging APIs
+- Now uses gnu.hylafax 1.0.1
+- Some bug fixes
+
+As mentioned above, YajHFC now supports cover pages in XSL:FO and OpenDocument 
+Text format. Because the required libraries are rather large (11MB), a 
+separate distribution/plugin including this support has been created.
+
+You can download this plugin from the following locations:
+General distribution (cross-platform, already includes YajHFC):
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_7-FOPPlugin-0_1.zip
+Source code:
+http://prdownload.berlios.de/yajhfc/FOPPlugin-0_1-src.zip
+Windows setup.exe (already includes YajHFC):
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_7-FOPPlugin-0_1-setup.exe
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+
+
+From jonas.wolz at freenet.de  Wed Sep  3 11:54:36 2008
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Wed, 3 Sep 2008 11:54:36 +0200
+Subject: [Yajhfc-announce] YajHFC 0.3.8 released
+Message-ID: <200809031154.36825.jonas.wolz@freenet.de>
+
+I am pleased to announce that version 0.3.8 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_8.jar
+
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_8-src.zip
+
+Windows setup.exe:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_8-setup.exe
+
+New features/changes:
+- Improved phone book window with better support for multiple phone books
+- Support to save the read/unread state of faxes in a central database table
+- Graphical panel to add JDBC drivers and plugins
+- Russian translation of YajHFC has been added
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+
+
+From jonas.wolz at freenet.de  Fri Sep 19 11:57:27 2008
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Fri, 19 Sep 2008 11:57:27 +0200
+Subject: [Yajhfc-announce] YajHFC 0.3.8a released
+Message-ID: <200809191157.27583.jonas.wolz@freenet.de>
+
+I am pleased to announce that version 0.3.8a of YajHFC has been released 
+today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_8a.jar
+
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_8a-src.zip
+
+Windows setup.exe:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_8a-setup.exe
+
+This version incorporates some bug fixes together with UI polishing (but no 
+new features).
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+
+From jonas.wolz at freenet.de  Tue Sep 30 14:56:30 2008
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Tue, 30 Sep 2008 14:56:30 +0200
+Subject: [Yajhfc-announce] 64bit compatible Windows setup.exe added
+Message-ID: <200809301456.30431.jonas.wolz@freenet.de>
+
+The Windows setup program has been updated to support installing a fax printer 
+for 64bit versions of Windows, too.
+
+You can downloaded an updated setup.exe at: 
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_8b-setup.exe
+
+This file should work with both 32bit and 64bit versions of Windows.
+If you find any problems with the updated setup (with 32bit or 64bit Windows), 
+please tell me.
+
+Please note that you will need to have a 64bit version of Java installed if 
+you use a 64bit version of Windows.
+
+Have fun,
+Jonas
+
+
+From jonas.wolz at freenet.de  Wed Nov 19 10:32:02 2008
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Wed, 19 Nov 2008 10:32:02 +0100
+Subject: [Yajhfc-announce] YajHFC 0.3.9 released
+Message-ID: <200811191032.02602.jonas.wolz@freenet.de>
+
+I am pleased to announce that version 0.3.9 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_9.jar
+
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_9-src.zip
+
+Windows setup.exe:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_9-setup.exe
+
+New features/changes:
+- Italian and Turkish translations added
+- "Quick search" for phone books
+- Lots of bug fixes and small improvements
+
+Known problems:
+The French translation is incomplete.
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have fun,
+Jonas
+
+

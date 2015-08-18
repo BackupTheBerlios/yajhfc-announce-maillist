@@ -1,0 +1,162 @@
+From jonas.wolz at freenet.de  Sun Jan  9 14:34:06 2011
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sun, 9 Jan 2011 14:34:06 +0100
+Subject: [Yajhfc-announce] YajHFC 0.5.0beta2
+Message-ID: <201101091434.07132.jonas.wolz@freenet.de>
+
+A new beta version for YajHFC 0.5.0 has been made available today.
+
+You can find it in the following directory:
+ftp://ftp.berlios.de/pub/yajhfc/temp/beta/
+
+In addition to the previous beta (for details see 
+http://lists.berlios.de/pipermail/yajhfc-announce/2010/000032.html ), this 
+version incorporates the following changes:
+
+- Support for multiple servers
+
+- Support for multiple identities
+
+
+Since both are rather large changes at the "core" of the program, this beta 
+might contain all kinds of new bugs (i.e. you should not use in in a 
+production environment without a thorough test).
+
+Nevertheless, everybody is encouraged to test this new version and report any 
+bugs, possible improvements, etc. he or she finds.
+(BTW, if you find it stable enough for production use in your environment, a 
+short notice would be nice, too...).
+
+Happy testing!
+Jonas Wolz
+
+
+From jonas.wolz at freenet.de  Sun Mar 13 13:25:43 2011
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sun, 13 Mar 2011 13:25:43 +0100
+Subject: [Yajhfc-announce] YajHFC 0.5.0 release candiate
+Message-ID: <201103131325.43327.jonas.wolz@freenet.de>
+
+In a few weeks YajHFC 0.5.0 will be released.
+
+You can download the current release candidate as jar file / Windows setup / 
+Linux packages / MAC app from:
+
+ftp://ftp.berlios.de/pub/yajhfc/temp/beta/
+
+The translations (except German) are still incomplete, but they will be 
+updated as soon as they are ready.
+
+Changes in YajHFC 0.5.0:
+- Support for local caching of the fax lists, probably making the start-up of 
+the application feel much quicker
+- Experimental support for direct reading to the recvq and doneq directory, 
+bypassing the HylaFAX server (and the HylaFAX user authentication). This 
+might lead to a lower server load with large queues since only modified files 
+are read to refresh the fax lists. This still needs some testing, however... 
+(any feedback on this feature is very welcome!)
+- Options dialog should open a bit faster than before
+- "Test connection" button in the Options dialog
+- Support for multiple servers
+- Support for multiple identities
+- Lists of faxes can be saved in CSV, HTML or XML format
+- Support for configurable keyboard accelerators
+
+
+If you find any bugs / problems / ... with this version, please let me know.
+
+Have fun and thanks in advance for your feedback!
+
+Jonas Wolz.
+
+
+
+From jonas.wolz at freenet.de  Sun Apr  3 11:11:48 2011
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sun, 3 Apr 2011 11:11:48 +0200
+Subject: [Yajhfc-announce] YajHFC 0.5.0 released
+Message-ID: <201104031111.48563.jonas.wolz@freenet.de>
+
+I am pleased to announce that version 0.5.0 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_5_0.jar
+
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_5_0-src.zip
+
+Windows setup.exe:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_5_0-setup.exe
+
+RPM packages:
+http://prdownload.berlios.de/yajhfc/yajhfc-0.5.0-1.noarch.rpm
+http://prdownload.berlios.de/yajhfc/yajhfc-faxprinter-0.5.0-1.noarch.rpm
+
+APT line to add to /etc/apt/sources.list for Debian/Ubuntu packages:
+deb ftp://ftp.berlios.de/pub/yajhfc/repository/apt stable/
+
+More information about the DEB packages:
+http://prdownload.berlios.de/yajhfc/deb-packages-info-0.5.0.txt
+
+Mac App:
+http://prdownload.berlios.de/yajhfc/yajhfc-macapp-0.5.0.zip
+
+
+New features/changes:
+- Support for local caching of the fax lists, probably making the start-up of 
+the application feel much quicker
+- Experimental support for direct reading to the recvq and doneq directory, 
+bypassing the HylaFAX server (and the HylaFAX user authentication). This 
+might lead to a lower server load with large queues since only modified files 
+are read to refresh the fax lists. This still needs some testing, however... 
+(any feedback on this feature is very welcome!)
+- Options dialog should open a bit faster than before
+- "Test connection" button in the Options dialog
+- Support for multiple servers
+- Support for multiple identities
+- Lists of faxes can be saved in CSV, HTML or XML format
+- Support for configurable keyboard accelerators
+
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+Have Fun,
+Jonas Wolz
+
+
+
+From jonas.wolz at freenet.de  Sat Oct 15 18:11:00 2011
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Sat, 15 Oct 2011 18:11:00 +0200
+Subject: [Yajhfc-announce] YajHFC moves to www.yajhfc.de
+Message-ID: <201110151811.00107.jonas.wolz@freenet.de>
+
+Because berlios.de will close down on 2011-12-31 YajHFC moves to a new 
+location at http://www.yajhfc.de 
+Please update your bookmarks accordingly.
+
+
+The source code repository and issue tracker will now be hosted on Google Code 
+at http://code.google.com/p/yajhfc.
+
+The mailing lists will move to Google Groups accordingly.
+Current Members of the mailing lists will receive an invitation to join the 
+new Groups (but of course it is up to you to join them or not).
+
+You will need a Google account to join the new Groups; if that is an issue for 
+you, please let me know.
+
+I will not remove the old content from berlios.de or close the old mailing 
+lists before the end of the year; new releases/updates etc. will only be made 
+on yajhfc.de, however.
+
+Since the new home page contains a lot of stuff ported from the old one, 
+please let me know if you find any dead links or have any questions/feedback 
+about this change.
+
+
+Have fun
+Jonas Wolz
+
+

@@ -1,0 +1,62 @@
+From jonas.wolz at freenet.de  Thu Dec 28 22:01:06 2006
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Thu, 28 Dec 2006 22:01:06 +0100
+Subject: [Yajhfc-announce] YajHFC 0.3.0 released
+Message-ID: <200612282201.06958.jonas.wolz@freenet.de>
+
+I'm glad to announce that version 0.3.0 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_0.jar
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_0-src.zip
+
+New features:
+- Support to convert pictures to PostScript before submitting a fax job
+- A "Preview" button to the Send dialog
+- Support for phone books in SQL databases (using JDBC)
+- Some internal changes
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+
+Currently BerliOS seems to have some problems with the site's availability, so 
+if the homepage and/or download doesn't work, please check back a few hours 
+later.
+
+Have fun,
+Jonas
+
+
+From jonas.wolz at freenet.de  Thu Dec 28 21:37:45 2006
+From: jonas.wolz at freenet.de (Jonas Wolz)
+Date: Thu, 28 Dec 2006 21:37:45 +0100
+Subject: [Yajhfc-announce] YajHFC 0.3.0 released
+Message-ID: <200612282137.45372.jonas.wolz@freenet.de>
+
+I'm glad to announce that version 0.3.0 of YajHFC has been released today.
+
+Download:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_0.jar
+Source code:
+http://prdownload.berlios.de/yajhfc/yajhfc-0_3_0-src.zip
+
+New features:
+- Support to convert pictures to PostScript before submitting a fax job
+- A "Preview" button to the Send dialog
+- Support for phone books in SQL databases (using JDBC)
+- Some internal changes
+
+For more information you may also take a look at the homepage at:
+http://yajhfc.berlios.de/
+
+
+Currently BerliOS seems to have some problems with the site's availability, so 
+if the homepage and/or download doesn't work, please check back a few hours 
+later.
+
+Have fun,
+Jonas
+
+
